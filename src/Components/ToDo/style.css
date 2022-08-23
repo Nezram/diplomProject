@@ -1,0 +1,92 @@
+.strike {
+  text-decoration: line-through;
+}
+
+.main_container {
+  min-height: 400px;
+  margin: auto;
+  margin-top: 50px;
+  background: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px;
+}
+
+.table_todo {
+  margin-top: 20px;
+  max-width: 100%;
+}
+
+.add_todo {
+  display: flex;
+}
+
+
+
+.card_container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.card {
+  transition: all 0.2s;
+}
+
+.card:hover {
+  transition: all 0.2s;
+  -webkit-box-shadow: 9px 11px 42px -27px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 9px 11px 42px -27px rgba(0, 0, 0, 0.61);
+  box-shadow: 9px 11px 42px -27px rgba(0, 0, 0, 0.61);
+}
+
+.card_incomleted {
+  opacity: 0.5;
+}
+
+.icon_remove {
+  border-radius: 50%;
+  position: absolute;
+  top: -13px;
+  right: -10px;
+  background-color: white;
+}
+
+.icon_check {
+  border-radius: 50%;
+  position: absolute;
+  top: -13px;
+  left: -10px;
+  background-color: white;
+}
+
+.icon_edit {
+  border-radius: 50%;
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  transition: all 0.3s;
+}
+
+.icon_edit:hover {
+  transition: all 0.3s;
+  transform: scale(1.5, 1.5);
+}
+
+.icon_remove:hover {
+  color: red;
+  transition: all 0.2s;
+}
+
+.icon_check:hover {
+  color: green;
+  transition: all 0.2s;
+}
+
+.icon_none {
+  display: none;
+}
+
+.card_text {
+  word-break: break-all;
+}
