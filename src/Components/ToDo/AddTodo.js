@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Form, InputGroup } from "react-bootstrap";
 import { useDispatch } from "react-redux";
-import { addTodo } from "./Store/todoSlice";
+import { addTodo } from "../Store/todoSlice";
 
 export default function AddTodo() {
   const [text, setText] = useState("");

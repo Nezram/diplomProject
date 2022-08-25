@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-import { removeTodo, toggleTodo, editTodo } from "./Store/todoSlice";
+import { removeTodo, toggleTodo, editTodo } from "../Store/todoSlice";
 
 export default function TodoCard({ text, id, date, comleted }) {
   const [check, setCheck] = useState(false);

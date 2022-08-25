@@ -5,7 +5,7 @@ import { Routes, Route, Link } from "react-router-dom";
 function App() {
   return (
     <>
-      <header>
+      <header className="main_header">
         <ul class="nav justify-content-start">
           <li class="nav-item">
             <Link className="nav-link text-light"  to="/">Home</Link>
